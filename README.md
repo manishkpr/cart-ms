@@ -27,13 +27,36 @@ For database setup, you have two options..
 
 With the database setup out of the way, things are simpler now with the following steps.
 
-- Run **npm install**
+`npm install`
 
 - Run the seed command from `package.json` - **npm run seed** (this will create the tables and seed some sample data needed for the test)
 
-- Finally run **npm run start** to run the service.
+- Finally run **npm run start** to run the service. If everything is setup and running properly, you can now curl (http://localhost:6482/) and get a `200 Ok response`.
 
-If everything is setup and running properly, you can now curl (http://localhost:6482/) and get a 200 Ok response.
+##Local Database
 
-  
- 
+`npm run cart:start:local`
+
+##Heroku Database
+
+`npm run cart:start:nightly`
+
+##Documentation
+
+Can use swagger (did not get time to do)
+
+Exported the insomnia file.
+
+[Insomnia File](https://github.com/manishkpr/cart-ms/blob/master/cart-service/docs/Insomnia_2019-08-20.json "Insomnia File")
+
+##Load Test
+
+Can use artillery to do the load test (did not get time to do)
+
+##API End Points
+
+1.
+
+2.
+
+3.
