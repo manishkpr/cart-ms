@@ -84,10 +84,10 @@ https://dbdiagram.io/d/5d6bd4b9ced98361d6de1862
         "price": 750
       }
     ],
-    "sub_total": 1700,
+    "sub_total": 2450,
     "tax": 7,
     "discount": 1.5,
-    "total": "1791.71"
+    "total": "2594.65"
   },
   "meta": {
     "requestId": "27435883-51d8-43ae-aa2b-05656be398f6",

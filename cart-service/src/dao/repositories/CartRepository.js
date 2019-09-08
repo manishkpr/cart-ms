@@ -18,7 +18,7 @@ module.exports = {
                       'price', products.price
                     )
                   ),
-        'sub_total', SUM(products.price)) as cart`))
+        'sub_total', SUM(products.price  * cart_items.quantity )) as cart`))
       .leftJoin('cart_items', 'cart_items.cart_id', 'cart.id')
       .leftJoin('products', 'products.id', 'cart_items.product_id')
       .whereRaw(`cart_id = '${cartId}'`)
